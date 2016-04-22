@@ -1,3 +1,4 @@
+""" module init """
 import os
 import ctypes
 
