@@ -26,7 +26,7 @@ def lambda_handler(event, context=None):
     # input validation
     assert event, "AWS Lambda event parameter not provided"
     text = event.get("text")  # query text
-    assert isinstance(text, str)
+    assert isinstance(text, basestring)
 
     # call predicting function
     return predict(text)
