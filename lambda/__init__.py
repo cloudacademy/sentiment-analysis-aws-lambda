@@ -1,4 +1,4 @@
-""" module init """
+""" Manually load OS libraries """
 import os
 import ctypes
 

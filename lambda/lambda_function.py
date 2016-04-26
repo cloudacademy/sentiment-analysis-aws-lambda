@@ -3,7 +3,10 @@
 import gzip
 import pickle
 
-CLASSES = {0: "negative", 4: "positive"}
+CLASSES = {
+    0: "negative",
+    4: "positive"
+}
 
 MODEL_FILE = 'model.dat.gz'
 try:
@@ -36,6 +39,6 @@ def predict(text):
     """
 
     x_vector = MODEL.vectorizer.transform([text])
-    y = MODEL.predict(x_vector)
+    y_predicted = MODEL.predict(x_vector)
 
-    return CLASSES.get(y[0])
+    return CLASSES.get(y_predicted[0])
