@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content="Sentiment Analysis with AWS Lambda &amp; Python"/>
+    <meta name="author" content="Cloud Academy"/>
+    <link rel="icon" href="favicon.png"/>
+    <title>Sentiment Analysis with AWS Lambda &amp; Python</title>
+    <link href="libs/bootstrap/tether.min.css" rel="stylesheet"/>
+    <link href="libs/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+      <a class="navbar-brand" href="https://cloudacademy.com" target="_blank" title="CloudAcademy">
+          <img alt="Cloud Academy" src="logo.svg" title="Cloud Academy"/>
+      </a>
+      <ul class="nav navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://cloudacademy.com" target="_blank" title="CloudAcademy">CloudAcademy.com</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/cloudacademy/sentiment-analysis-aws-lambda" target="_blank" title="Source code">View Source on GitHub</a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <div class="container">
+
+      <div class="form-container">
+        <h1>Sentiment Analysis with AWS Lambda &amp; Python</h1>
+        <form autocomplete="off">
+          <label for="text" class="sr-only">Text</label>
+          <input required autofocus id="text" name="text" type="text" value="" class="form-control" placeholder="Insert text here..." />
+          <button type="submit" class="btn btn-lg btn-primary">Predict sentiment</button>
+        </form>
+        <div id="results"></div>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="libs/jquery/jquery.min.js"><\/script>')</script>
+    <script src="libs/bootstrap/tether.min.js"></script>
+    <script src="libs/bootstrap/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

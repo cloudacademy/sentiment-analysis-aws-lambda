@@ -1,0 +1,25 @@
+body {
+  padding-top: 5rem;
+}
+
+img {
+    height: 30px;
+}
+
+.form-container {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 2em auto;
+}
+
+form input {
+
+}
+
+form button {
+    margin-top: 1em;
+}
