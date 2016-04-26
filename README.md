@@ -31,7 +31,7 @@ Then, you can bind the AWS Lambda function to a new Amazon API Gateway resource 
 
 ### References
 
-* [Cloud Academy & AWS: how we use Amazon Web Services for machine learning and data collection](https://www.slideshare.net/AlexCasalboni/cloud-academy-aws-how-we-use-amazon-web-services-for-machine-learning-and-data-collection/edit?src=slideview&type=privacy) (webinar)
+* [Cloud Academy & AWS: how we use Amazon Web Services for machine learning and data collection](https://www.slideshare.net/AlexCasalboni/cloud-academy-aws-how-we-use-amazon-web-services-for-machine-learning-and-data-collection/) (webinar)
 
 * [Using Scikit-Learn In AWS Lambda](https://serverlesscode.com/post/deploy-scikitlearn-on-lamba/) (article by [Ryan Brown](https://github.com/ryansb))
 
