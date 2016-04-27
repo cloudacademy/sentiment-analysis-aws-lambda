@@ -9,11 +9,8 @@ CLASSES = {
 }
 
 MODEL_FILE = 'model.dat.gz'
-try:
-    with gzip.open(MODEL_FILE, 'rb') as f:
-        MODEL = pickle.load(f)
-except:
-    raise IOError("can't find the trained model at %s" % MODEL_FILE)
+with gzip.open(MODEL_FILE, 'rb') as f:
+    MODEL = pickle.load(f)
 
 # pylint: disable=unused-argument
 def lambda_handler(event, context=None):
