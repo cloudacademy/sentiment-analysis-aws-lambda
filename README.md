@@ -2,6 +2,8 @@
 
 The Cloud Academy team shows how to build a sentiment analysis machine learning model by using a pubic dataset and how to deploy it to production with AWS Lambda and API Gateway.
 
+![Frontend Screenshot](blob/master/frontend/screenshot.png?raw=true)
+
 ## How to install requirements
 
 Python requirements can be installed with pip.
