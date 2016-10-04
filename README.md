@@ -25,11 +25,15 @@ You can run the model via CLI as follows:
     
 ## How to deploy the Lambda function
 
-You have to create a new deployment package containing every Python dependency and the OS libraries required by scikit-learn and numpy.
+Simply execute the following deployment script:
+
+    $ ./deploy.sh
+
+It will automatically create a new deployment package containing every Python dependency and the OS libraries required by scikit-learn and numpy, together with the "lambda" folder.
 
 [Here](https://github.com/ryansb/sklearn-build-lambda) you can find the whole stack ready to be uploaded  ([reference](https://serverlesscode.com/post/deploy-scikitlearn-on-lamba/)).
 
-Then, you can bind the AWS Lambda function to a new Amazon API Gateway resource and obtain a RESTful interface for your model.
+Once the deployment package is ready, you can create a new AWS Lambda function and bind it to a new Amazon API Gateway endpoint.
 
 ### References
 
