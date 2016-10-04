@@ -15,14 +15,14 @@ def load_model(model_filename):
     try:
         with gzip.open(model_filename, 'rb') as fmodel:
             model = pickle.load(fmodel)
-    except:
-        raise IOError("can't find the trained model.")
+    except Exception as ex:
+        raise IOError("Couldn't load  model: %r" % ex)
 
     return model
 
 def predict(model, text):
     """ Predict class given model and input (text) """
-    print "extracting features..."
+    print "Extracting features..."
     x_vector = model.vectorizer.transform([text])
     y_predicted = model.predict(x_vector)
     return CLASSES.get(y_predicted[0])
