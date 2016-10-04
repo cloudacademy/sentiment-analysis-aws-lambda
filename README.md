@@ -6,6 +6,10 @@ The Cloud Academy team shows how to build a sentiment analysis machine learning 
 
 ## How to install requirements
 
+OS libraries can be installed as follows (Linux):
+
+    $ sudo yum install -y atlas-devel atlas-sse3-devel blas-devel gcc gcc-c++ lapack-devel python27-devel
+
 Python requirements can be installed with pip.
 
     $ pip install -r requirements.txt
